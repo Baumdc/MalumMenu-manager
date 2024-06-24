@@ -45,7 +45,7 @@ Malum Menu Manager is a user-friendly tool designed to streamline the installati
 
 ## Support
 
-For support, please open an issue on the [Issues]() page.
+For support, please open an issue on the [Issues](https://github.com/Baumdc/MalumMenu-manager/issues) page.
 
 ## License
 
