@@ -10,11 +10,30 @@ Malum Menu Manager is a user-friendly tool designed to streamline the installati
 - **Backup and Restore**: Safely backup your mod configuration and restore it after updates or uninstallation.
 - **User-Friendly Interface**: Manage everything through a simple and intuitive GUI.
 
+## Requirements:
+
+- [Python 3](https://www.python.org/downloads/)
+- [NET SDK](dotnet.microsoft.com/download) (required only for the script that updates the mod)
+- tkinter
+  install with
+   ```bash
+    pip install tkinter
+    ```
+- requests
+  ```bash
+    pip install requests
+    ```
+- subprocess
+   ```bash
+    pip install subprocess
+    ```
+  
+
 ## Installation
 
-1. **Download the Latest Release**: Visit the [Releases](https://github.com/scp222thj/MalumMenu/releases) page and download the latest `.zip` file.
+1. **Download the Latest Release**: Visit the [Releases](https://github.com/Baumdc/MalumMenu-manager/releases) page and download the latest `.zip` file.
 2. **Extract the Files**: Unzip the downloaded file to your preferred location.
-3. **Run the Manager**: Navigate to the extracted folder and run `MalumMenuManager.exe`.
+3. **Run the Manager**: Navigate to the extracted folder and run `start.bat`.
 
 ## Usage
 
@@ -23,22 +42,15 @@ Malum Menu Manager is a user-friendly tool designed to streamline the installati
 - **Toggle Mod**: Toggle the mod on or off using the "Toggle Mod" button.
 - **Delete Mod**: Remove the mod and restore the original Among Us installation with the "Delete Mod" button.
 
-## Contributing
-
-Contributions are welcome! Please read the [Contribution Guidelines](CONTRIBUTING.md) before getting started.
 
 ## Support
 
-For support, please open an issue on the [Issues](https://github.com/scp222thj/MalumMenu/issues) page.
+For support, please open an issue on the [Issues]() page.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the GNU GENERAL PUBLIC LICENSE. See the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
-
-- Special thanks to the Among Us community for their support and feedback.
-- Credits to the creators and contributors of the Malum Menu mod.
 
 ---
 
