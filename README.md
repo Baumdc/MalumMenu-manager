@@ -1,10 +1,5 @@
 # Malum Menu Manager
 
-Malum Menu:
-[![GitHub release](https://img.shields.io/github/release/scp222thj/MalumMenu.svg)](https://github.com/scp222thj/MalumMenu/releases)
-[![GitHub issues](https://img.shields.io/github/issues/scp222thj/MalumMenu.svg)](https://github.com/scp222thj/MalumMenu/issues)
-[![GitHub license](https://img.shields.io/github/license/scp222thj/MalumMenu.svg)](https://github.com/scp222thj/MalumMenu/blob/main/LICENSE)
-
 Malum Menu Manager is a user-friendly tool designed to streamline the installation, updating, and management of the Malum Menu mod for Among Us. This tool simplifies the process of keeping your mod up-to-date and ensures a hassle-free experience.
 
 ## Features
