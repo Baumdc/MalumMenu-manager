@@ -6,7 +6,7 @@ Malum Menu Manager is a user-friendly tool designed to streamline the installati
 
 - **Automatic Installation**: Easily install the latest version of Malum Menu with a single click.
 - **Update Management**: Keep your mod up-to-date with the latest features and fixes.
-- **Mod Toggle**: Enable or disable the mod without manual file manipulation.
+- **Mod Toggle**: Enable or disable and enable the mod without manual file manipulation.
 - **Backup and Restore**: Safely backup your mod configuration and restore it after updates or uninstallation.
 - **User-Friendly Interface**: Manage everything through a simple and intuitive GUI.
 
