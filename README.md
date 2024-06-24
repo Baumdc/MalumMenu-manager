@@ -1,4 +1,7 @@
 # Malum Menu Manager
+Go check out the creator of [MalumMenu](https://github.com/scp222thj/MalumMenu) [scp22thj](https://github.com/scp222thj) and his [website](https://scp222thj.dev): [scp222thj.dev](https://scp222thj.dev) 
+
+This is an inofficial autoupdate Program for the Among us cheat [Malum Menu](https://github.com/scp222thj/MalumMenu)
 
 Malum Menu Manager is a user-friendly tool designed to streamline the installation, updating, and management of the Malum Menu mod for Among Us. This tool simplifies the process of keeping your mod up-to-date and ensures a hassle-free experience.
 
