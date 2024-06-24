@@ -9,24 +9,17 @@ import winreg
 
 # Function to find Among Us installation directory from the Windows registry
 def find_among_us_installation():
-    try:
-        registry_path = r"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall"
-        key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, registry_path)
-        for i in range(winreg.QueryInfoKey(key)[0]):
-            subkey_name = winreg.EnumKey(key, i)
-            subkey = winreg.OpenKey(key, subkey_name)
-            try:
-                display_name = winreg.QueryValueEx(subkey, 'DisplayName')[0]
-                if display_name == 'Among Us':
-                    install_location = winreg.QueryValueEx(subkey, 'InstallLocation')[0]
-                    among_us_exe = os.path.join(install_location, 'Among Us.exe')
-                    if os.path.isfile(among_us_exe):
-                        return install_location
-            except FileNotFoundError:
-                continue
-    except Exception as e:
-        print(f"An error occurred while searching the registry: {e}")
-    return None
+    config_file = "among_us_path.txt"
+    
+    if os.path.exists(config_file):
+        with open(config_file, "r") as file:
+            among_us_path = file.read().strip()
+    else:
+        among_us_path = input("Please enter the Among Us folder path (e.g., D:\\SteamLibrary\\steamapps\\common\\Among Us): ").strip()
+        with open(config_file, "w") as file:
+            file.write(among_us_path)
+    
+    return among_us_path
 
 # Function to get the latest release version from GitHub
 def get_latest_release_version():
