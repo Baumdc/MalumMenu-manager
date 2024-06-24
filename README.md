@@ -26,10 +26,6 @@ Malum Menu Manager is a user-friendly tool designed to streamline the installati
   ```bash
     pip install requests
     ```
-- subprocess
-   ```bash
-    pip install subprocess
-    ```
   
 
 ## Installation
