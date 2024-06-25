@@ -16,7 +16,7 @@ Malum Menu Manager is a user-friendly tool designed to streamline the installati
 ## Requirements:
 
 - [Python 3](https://www.python.org/downloads/)
-- [NET SDK](dotnet.microsoft.com/download) 
+- [NET SDK](https://dotnet.microsoft.com/download) 
 - tkinter
   install with
    ```bash
